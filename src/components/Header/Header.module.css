@@ -1,0 +1,47 @@
+.Background {
+    width: 100%;
+    height: 550px;
+    background-image: url("../../img/header.jpeg");
+}
+
+.Title {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    padding-top: 6%;
+}
+
+.Title h1 {
+    font-size: 3rem;
+    padding-bottom: 1.2%;
+}
+
+.Title p {
+    font-size: 1rem;
+    padding-top: 3%;
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+
+.Img {
+    position: absolute;
+    width: 250px;
+    height: 370px;
+    right: 0;
+    top: 10;
+    border-radius: 150px 0 150px 80px;
+}
+
+@media(max-width: 500px){
+    .Background{
+        height: 250px;
+    }
+    .Title{
+        display: none;
+    }
+    .Img{
+        width: 165px;
+        height: 250px;
+    }
+}

@@ -1,0 +1,17 @@
+/* .Logo {
+    display: flex;
+}
+
+.Right {
+    display: flex;
+    float: right;
+} */
+.Background {
+background-color: #f8f9fa;
+}
+
+.Position {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}

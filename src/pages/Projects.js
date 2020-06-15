@@ -1,0 +1,16 @@
+import React from 'react';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
+import ProjectGrid from '../components/ProjectGrid/ProjectGrid';
+
+function Projects() {
+    return (
+      <div>
+      <Navbar />
+      <ProjectGrid />
+      <Footer />
+      </div>
+    );
+  }
+  
+  export default Projects;

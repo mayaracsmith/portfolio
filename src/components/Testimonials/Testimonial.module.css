@@ -1,0 +1,128 @@
+.Background {
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    background-color: #fcf7fa;
+}
+
+.Img {
+    position: absolute;
+    width: 220px;
+    height: 230px;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    border-radius: 150px 150px 150px 150px;
+}
+
+.Img2 {
+    position: absolute;
+    width: 220px;
+    height: 230px;
+    margin-left: 60%;
+    margin-top: 2.5%;
+    border-radius: 150px 150px 150px 150px;
+}
+
+.Quotes {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+
+.Quotes2 {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.Testimonial {
+    position: absolute;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 28%;
+    text-align: justify;
+    font-size: 0.95rem;
+}
+
+.Testimonial2 {
+    position: absolute;
+    width: 45%;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: justify;
+    font-size: 0.95rem;
+}
+
+.Name {
+    position: absolute;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 28%;
+}
+
+.Name2 {
+    position: absolute;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+@media(max-width: 500px){
+    .Background{
+        height: 450px;
+    }
+    .Img{
+        width: 90px;
+        height: 100px;
+    }
+    .Img2{
+        width: 90px;
+        height: 100px;
+        margin-left: 50%;
+        margin-top: 6%;
+    }
+    .Quotes{
+        display: none;
+    }
+    .Quotes2{
+        display: none;
+    }
+    .Testimonial{
+        position: absolute;
+        width: 48%;
+        margin-top: 5%;
+        margin-left: 32%;
+        text-align: left;
+        font-size: 0.8rem;
+    }
+    .Testimonial2{
+        position: absolute;
+        width: 46%;
+        margin-top: 10%;
+        margin-left: 5%;
+        text-align: left;
+        font-size: 0.8rem;
+    }
+    .Name {
+        position: absolute;
+        margin-top: 100%;
+        margin-left: 5%;
+    }
+    .Name h4 {
+        font-size: 1rem;
+    }
+    .Name p {
+        font-size: 0.8rem;
+    }
+    .Name2 {
+        position: absolute;
+        margin-top: 100%;
+        margin-left: 5%;
+    }
+    .Name2 h4 {
+        font-size: 1rem;
+    }
+    .Name2 p {
+        font-size: 0.8rem;
+    }
+}
