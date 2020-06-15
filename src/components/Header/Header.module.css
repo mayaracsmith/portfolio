@@ -22,6 +22,8 @@
     width: 50%;
     margin: auto;
     line-height: 2;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px white;
 }
 
 .Img {
@@ -43,5 +45,21 @@
     .Img{
         width: 165px;
         height: 250px;
+    }
+}
+
+@media(max-width: 800px){
+    .Background{
+        height: 350px;
+    }
+    .Title{
+        display: none;
+    }
+    .Title p {
+        display: none;
+    }
+    .Img{
+        width: 200px;
+        height: 300px;
     }
 }

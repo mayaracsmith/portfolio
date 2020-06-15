@@ -47,3 +47,33 @@
     width: 200px;
     height: 250px;
 }
+
+@media(max-width: 500px){
+    .Cards {
+        width: 90%;
+    }
+    .Cards2 {
+        width: 90%;
+    }
+    .Title h2 {
+        font-size: 1rem;
+    }
+    .Title p {
+        display: none;
+    }
+    .Title2 h2 {
+        font-size: 1rem;
+    }
+    .Title2 p {
+        display: none;
+    }
+}
+
+@media(max-width: 800px){
+    .Cards {
+        width: 80%;
+    }
+    .Cards2 {
+        width: 80%;
+    }
+}

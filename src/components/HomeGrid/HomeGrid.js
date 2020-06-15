@@ -42,7 +42,7 @@ const homeGrid = () => (
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-     <Card.Link href="#">Contact Me!</Card.Link>
+     <Card.Link href="/contact">Contact Me!</Card.Link>
   </Card.Footer>
   </Card>
   

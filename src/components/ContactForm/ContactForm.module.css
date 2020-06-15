@@ -1,0 +1,49 @@
+.All {
+    width: 90%;
+    margin: auto;
+    padding-top: 4%;
+}
+
+.All p {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.Background {
+    background-image: url("../../img/pink.jpeg");
+    margin: auto;
+    height: 200px;
+}
+
+.Background h2 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-size: 3rem;
+}
+
+@media(max-width: 500px){
+    .All {
+        height: 530px;
+    }
+    .All p {
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .Background{
+        height: 200px;
+    }
+    .Background h2{
+        font-size: 2rem;
+        top: 30%;
+    }
+}
+
+@media(max-width: 800px){
+    .All{
+        height: 870px;
+    }
+}

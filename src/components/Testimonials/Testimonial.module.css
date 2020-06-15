@@ -1,7 +1,7 @@
 .Background {
     width: 80%;
     margin: auto;
-    height: 300px;
+    height: 350px;
     background-color: #fcf7fa;
 }
 
@@ -124,5 +124,44 @@
     }
     .Name2 p {
         font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 800px){
+    .Background {
+        width: 90%;
+        height: 450px;
+    }
+    .Quotes{
+        display: none;
+    }
+    .Quotes2{
+        display: none;
+    }
+    .Testimonial{
+        position: absolute;
+        width: 48%;
+        margin-top: 5%;
+        margin-left: 40%;
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+    .Testimonial2{
+        position: absolute;
+        width: 46%;
+        margin-top: 10%;
+        margin-left: 5%;
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+    .Name {
+        position: absolute;
+        margin-top: 37%;
+        margin-left: 5%;
+    }
+    .Name2 {
+        position: absolute;
+        margin-top: 37%;
+        margin-left: 5%;
     }
 }
