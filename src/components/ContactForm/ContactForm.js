@@ -8,7 +8,7 @@ const contact = () => (
         <p>Mayara Caldeira Smith</p>
         <p>mayaracsmith@gmail.com</p>
         <p>(704) 798-9025</p>
-    </div>
+       </div>
 );
 
 export default contact;

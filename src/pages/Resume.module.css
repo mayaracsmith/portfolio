@@ -1,7 +1,16 @@
-@media(max-width: 500px){
-    .Img {
-        display: none;
+.Resume {
+    height: 100%;
+    margin-left: 15%;
+}
+
+@media(max-width: 800px){
+    .Resume{
+        margin: 0;
+        width: 110%;
     }
+}
+
+@media(max-width: 500px){
     .Resume {
         margin: 0;
         padding: 0;
@@ -9,11 +18,3 @@
     }
 }
 
-@media(max-width: 800px){
-    .Img {
-        display: none;
-    }
-    .Resume{
-        width: 110%;
-    }
-}

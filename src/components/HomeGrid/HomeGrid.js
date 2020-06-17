@@ -10,8 +10,7 @@ const homeGrid = () => (
     <Card.Body>
       <Card.Title>My Projects</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+      Showcasing all the projects I've done throughout my software engineering career in Road to Hire.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -23,8 +22,7 @@ const homeGrid = () => (
     <Card.Body>
       <Card.Title>Resume</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+      Over the past six months, I’ve gained knowledge about software development as well as developing the necessary skills needed for the position. Check out my resume!
       </Card.Text>
     </Card.Body>
     <Card.Footer>
@@ -36,9 +34,7 @@ const homeGrid = () => (
     <Card.Body>
       <Card.Title>Contact Me!</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+        Do you like my portfolio website? Contact me!
       </Card.Text>
     </Card.Body>
     <Card.Footer>

@@ -67,6 +67,45 @@
     margin-left: 10%;
 }
 
+@media(max-width: 800px){
+    .Background {
+        width: 90%;
+        height: 450px;
+    }
+    .Quotes{
+        display: none;
+    }
+    .Quotes2{
+        display: none;
+    }
+    .Testimonial{
+        position: absolute;
+        width: 48%;
+        margin-top: 5%;
+        margin-left: 40%;
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+    .Testimonial2{
+        position: absolute;
+        width: 46%;
+        margin-top: 10%;
+        margin-left: 5%;
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+    .Name {
+        position: absolute;
+        margin-top: 37%;
+        margin-left: 5%;
+    }
+    .Name2 {
+        position: absolute;
+        margin-top: 37%;
+        margin-left: 5%;
+    }
+}
+
 @media(max-width: 500px){
     .Background{
         height: 450px;
@@ -127,41 +166,3 @@
     }
 }
 
-@media(max-width: 800px){
-    .Background {
-        width: 90%;
-        height: 450px;
-    }
-    .Quotes{
-        display: none;
-    }
-    .Quotes2{
-        display: none;
-    }
-    .Testimonial{
-        position: absolute;
-        width: 48%;
-        margin-top: 5%;
-        margin-left: 40%;
-        text-align: justify;
-        font-size: 0.8rem;
-    }
-    .Testimonial2{
-        position: absolute;
-        width: 46%;
-        margin-top: 10%;
-        margin-left: 5%;
-        text-align: justify;
-        font-size: 0.8rem;
-    }
-    .Name {
-        position: absolute;
-        margin-top: 37%;
-        margin-left: 5%;
-    }
-    .Name2 {
-        position: absolute;
-        margin-top: 37%;
-        margin-left: 5%;
-    }
-}

@@ -35,19 +35,6 @@
     border-radius: 150px 0 150px 80px;
 }
 
-@media(max-width: 500px){
-    .Background{
-        height: 250px;
-    }
-    .Title{
-        display: none;
-    }
-    .Img{
-        width: 165px;
-        height: 250px;
-    }
-}
-
 @media(max-width: 800px){
     .Background{
         height: 350px;
@@ -63,3 +50,17 @@
         height: 300px;
     }
 }
+
+@media(max-width: 500px){
+    .Background{
+        height: 250px;
+    }
+    .Title{
+        display: none;
+    }
+    .Img{
+        width: 165px;
+        height: 250px;
+    }
+}
+

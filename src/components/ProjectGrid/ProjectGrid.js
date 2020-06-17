@@ -43,33 +43,39 @@ const projectGrid = () => (
         </div>
         <div className={classes.Cards}>
             <div className={classes.Title}><h2>Pokemon Inquirer App</h2>
-            <p>My first full-stack project. Created with React, Bootstrap, CSS modules and MySQL.</p>
-            <Nav.Link style={{margin: "0", padding:"0"}} href="#" target="_blank" rel="noopener noreferrer">Pokemon Inquirer</Nav.Link></div>
-            <img src="/assets/img/cakes.png" alt="Pokemon Inquirer App"/>
+            <p>Class Project to understand Node.js. NPM inquirer was used to create this Pokemon Inquirer App.</p>
+            <Nav.Link style={{margin: "0", padding:"0"}} href="https://github.com/mayaracsmith/pokemon" target="_blank" rel="noopener noreferrer">Pokemon Inquirer</Nav.Link></div>
+            <img src="/assets/img/pokemon.png" alt="Pokemon Inquirer App"/>
         </div>
         <div className={classes.Cards2}>
-        <img src="/assets/img/cakes.png" alt="Weather App"/>
+        <img src="/assets/img/weather.png" alt="Weather App"/>
             <div className={classes.Title2}><h2>Weather App</h2>
-            <p>My first full-stack project. Created with React, Bootstrap, CSS modules and MySQL.</p>
-            <Nav.Link style={{margin: "0", padding:"0"}} href="#" target="_blank" rel="noopener noreferrer">Weather App</Nav.Link></div>
+            <p>First React project created. I used Bootstrap to add styling to my app.</p>
+            <Nav.Link style={{margin: "0", padding:"0"}} href="https://github.com/mayaracsmith/weatherApp" target="_blank" rel="noopener noreferrer">Weather App</Nav.Link></div>
         </div>
         <div className={classes.Cards}>
             <div className={classes.Title}><h2>Github Page Locator App</h2>
-            <p>My first full-stack project. Created with React, Bootstrap, CSS modules and MySQL.</p>
+            <p>This is a project from a breakout session I attended to. Add your github username to see it being display on the page.</p>
             <Nav.Link style={{margin: "0", padding:"0"}} href="https://react-github-cards-maya.netlify.app/" target="_blank" rel="noopener noreferrer">Github Page Locator</Nav.Link></div>
             <img style={{borderStyle: "solid", borderColor: "#ccc"}} src="/assets/img/githubcards.png" alt="Github Page Locator App"/>
         </div>
         <div className={classes.Cards2}>
-        <img src="/assets/img/cakes.png" alt="To - Do List"/>
+        <img src="/assets/img/todo.png" alt="To - Do List"/>
             <div className={classes.Title2}><h2>To-Do List</h2>
-            <p>My first full-stack project. Created with React, Bootstrap, CSS modules and MySQL.</p>
-            <Nav.Link style={{margin: "0", padding:"0"}} href="#" target="_blank" rel="noopener noreferrer">To-Do List</Nav.Link></div>
+            <p>Simple to-do list made in React. This was part of a class activity I attended to.</p>
+            <Nav.Link style={{margin: "0", padding:"0"}} href="https://mayastodolist.netlify.app/" target="_blank" rel="noopener noreferrer">To-Do List</Nav.Link></div>
         </div>
         <div className={classes.Cards}>
             <div className={classes.Title}><h2>Tic Tac Toe</h2>
-            <p>Game created in class with my tech instructor. We used React and .....</p>
+            <p>Game created in class with my tech instructor. We used React Hooks to create this fun game.</p>
             <Nav.Link style={{margin: "0", padding:"0"}} href="https://mayas-tic-tac-toe.netlify.app/" target="_blank" rel="noopener noreferrer">Tic Tac Toe</Nav.Link></div>
             <img src="/assets/img/tictactoe.png" alt="Tic Tac Toe"/>
+        </div>
+        <div className={classes.Cards2}>
+        <img src="/assets/img/number.png" alt="Number Count"/>
+            <div className={classes.Title2}><h2>Number Counter</h2>
+            <p>A simple number counter app made entirely from JavaScript, HTML and CSS.</p>
+            <Nav.Link style={{margin: "0", padding:"0"}} href="https://numbercounter-maya.netlify.app/" target="_blank" rel="noopener noreferrer">Number Counter</Nav.Link></div>
         </div>
     </div>
 );

@@ -48,6 +48,15 @@
     height: 250px;
 }
 
+@media(max-width: 800px){
+    .Cards {
+        width: 80%;
+    }
+    .Cards2 {
+        width: 80%;
+    }
+}
+
 @media(max-width: 500px){
     .Cards {
         width: 90%;
@@ -69,11 +78,3 @@
     }
 }
 
-@media(max-width: 800px){
-    .Cards {
-        width: 80%;
-    }
-    .Cards2 {
-        width: 80%;
-    }
-}

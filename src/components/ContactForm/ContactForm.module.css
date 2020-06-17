@@ -24,6 +24,12 @@
     font-size: 3rem;
 }
 
+@media(max-width: 800px){
+    .All{
+        height: 870px;
+    }
+}
+
 @media(max-width: 500px){
     .All {
         height: 530px;
@@ -42,8 +48,3 @@
     }
 }
 
-@media(max-width: 800px){
-    .All{
-        height: 870px;
-    }
-}
