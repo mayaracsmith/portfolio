@@ -2,6 +2,7 @@ import React from 'react';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
 import classes from './HomeGrid.module.css';
+import { NavLink } from 'react-router-dom';
 
 
 const homeGrid = () => (
@@ -14,7 +15,7 @@ const homeGrid = () => (
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-     <Card.Link href="/projects">Projects</Card.Link>
+     <Card.Link><NavLink exact={true} style={{textDecoration: "none"}} to="/projects">Projects</NavLink></Card.Link>
   </Card.Footer>
   </Card>
   
@@ -26,7 +27,7 @@ const homeGrid = () => (
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-     <Card.Link href="/resume">Resume</Card.Link>
+     <Card.Link><NavLink exact={true} style={{textDecoration: "none"}} to="/resume">Resume</NavLink></Card.Link>
   </Card.Footer>
   </Card>
   
@@ -38,7 +39,7 @@ const homeGrid = () => (
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-     <Card.Link href="/contact">Contact Me!</Card.Link>
+     <Card.Link><NavLink exact={true} style={{textDecoration: "none"}} to="/contact">Contact Me!</NavLink></Card.Link>
   </Card.Footer>
   </Card>
   
