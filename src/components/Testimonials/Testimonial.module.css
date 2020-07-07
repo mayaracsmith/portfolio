@@ -133,8 +133,11 @@
 }
 
 @media(max-width: 550px){
+    .Background{
+        height: 460px;
+    }
     .Background2{
-        height: 720px;
+        height: 780px;
     }
     .Img{
         width: 90px;
