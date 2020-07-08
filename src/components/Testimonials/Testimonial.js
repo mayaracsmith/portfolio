@@ -13,7 +13,7 @@ const testimonial = () => (
             she has repeatedly exemplified all of RV’s core values, and has tackled her projects and demonstrates an understanding of application development 
             and design concepts that I didn’t have for at least a full year into my development career. She is exactly the kind of person I’d want on my team! 
             She will succeed wherever she goes.</p>
-            <h4 className={classes.Name}>Danielle Moya-Mendez</h4><p>Tech Mentor</p></Card></div>
+            <h4 className={classes.Name}>Danielle Moya-Mendez</h4><p>Software Engineer at Red Ventures</p><p>Tech Mentor</p></Card></div>
     </div>
     <div className={classes.Background2}>
     <img className={classes.Img2} src="/assets/img/katie.jpeg" alt="Katie, life mentor" />
@@ -24,7 +24,7 @@ const testimonial = () => (
         Not only have I been impressed by her technical abilities, but her self-drive, prioritization and the leadership she has displayed among her peers is outstanding. 
         She is passionate about her work, dedicated to developing her skills and receptive to feedback to continue her growth. Her positivity and confidence regarding challenging 
         tasks is refreshing and makes her a joy to work with. I am confident she would be an asset to any organization. She’s a reliable teammate with a strong work ethic to build on her craft.</p>
-        <h4 className={classes.Name2}>Katie Greene Ladika</h4><p>Life Mentor</p></Card></div>
+        <h4 className={classes.Name2}>Katie Greene Ladika</h4><p>Human Resources at Red Ventures</p><p>Life Mentor</p></Card></div>
 
     </div>
     <div className={classes.Background}>
@@ -34,7 +34,7 @@ const testimonial = () => (
         I have enjoyed being her instructor because she has exhibited a genuine passion for technology. She is a quick learner who actively implements new concepts in her 
         code and challenges herself to learn more. Maya is able to work successfully individually or as a part of a team because she is personable, organized and has a
          ‘can-do’ attitude. I know she will do well and be an asset to any team.</p>
-         <h4 className={classes.Name}>Latori Miller</h4><p>Tech Instructor</p></Card></div>
+         <h4 className={classes.Name}>Latori Miller</h4><p>Instructor | Software Developer</p><p>Tech Instructor</p></Card></div>
 
     </div>
     </div>
