@@ -6,7 +6,7 @@ const Footer = () => {
   React.useEffect(() => { window.scrollTo(0, 0); }, [])
   return(
   <div className={classes.All}>
-  <div className={classes.Footer}>
+  <footer className={classes.Footer}>
     <div className={classes.FooterInner}>
     <ul>
         <li>&copy; Mayara Caldeira's Portfolio 2020 | All Rights Reserved.</li>
@@ -17,7 +17,7 @@ const Footer = () => {
 
       </div>
     </div>
-</div>
+</footer>
 </div>)
     
 };

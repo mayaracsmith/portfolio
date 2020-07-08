@@ -12,7 +12,7 @@ function Projects() {
       <button style={{display: "block", background: "#0074D9", color: "white", textAlign: "center", padding: "1% 2%", margin: "auto", textDecoration: "none"}}><i class="fa fa-download"></i> Download</button></a>
       </div>
       <div className={classes.All} style={{width: "80%", height: "1000px", margin: "auto", paddingTop: "2%"}}>
-          <img className={classes.Resume} src="/assets/img/resume.png" alt="resume" />
+          <img style={{display: "block", textAlign: "center", margin:"auto"}} className={classes.Resume} src="/assets/img/resume.png" alt="resume" />
       </div>
       <Footer />
       </div>
