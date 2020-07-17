@@ -11,6 +11,7 @@ const header = () => (
             Recent graduate of the Road to Hire program. During the past 6 months, I learned a wide variety of tech languages and professionalism, such as: 
             Front-End/Back-End Development, Responsive Design, GIT and Github, HTML, CSS/SASS, Javascript, Node.js, React, MySQL, Communication, Problem-Solving and Time Management.   
             </p>
+            <p>Last Updated: July 2020</p>
         </div>
         <img className={classes.Img} src="/assets/img/Mayara.jpg" alt="Mayara Caldeira" />
     </div>
